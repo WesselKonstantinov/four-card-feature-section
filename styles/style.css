@@ -23,3 +23,41 @@ body {
   font-size: 0.9375rem;
   font-weight: var(--font-weight-regular);
 }
+
+/* || Page styles */
+.main-content {
+  padding: 5rem 2rem;
+}
+
+.main-content__inner {
+  max-width: 69.375rem;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4.75rem;
+}
+
+/* || Page text styles */
+.main-content__info {
+  text-align: center;
+}
+
+.main-content__info > * {
+  letter-spacing: 0.007em;
+}
+
+.main-content__title {
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-light);
+}
+
+.main-content__title--bold {
+  font-weight: var(--font-weight-bold);
+  display: block;
+}
+
+.main-content__text {
+  line-height: 1.666;
+  opacity: 0.5;
+  margin-top: 1rem;
+}
