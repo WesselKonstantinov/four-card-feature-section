@@ -22,14 +22,11 @@ body {
   font-family: var(--font-family-primary);
   font-size: 0.9375rem;
   font-weight: var(--font-weight-regular);
+  padding: 5rem 2rem;
 }
 
 /* || Page styles */
 .main-content {
-  padding: 5rem 2rem;
-}
-
-.main-content__inner {
   max-width: 69.375rem;
   margin-inline: auto;
   display: flex;
