@@ -14,3 +14,12 @@
   --font-weight-regular: 400;
   --font-weight-bold: 600;
 }
+
+/* || Global styles */
+body {
+  background-color: var(--color-light-gray);
+  color: var(--color-dark-blue);
+  font-family: var(--font-family-primary);
+  font-size: 0.9375rem;
+  font-weight: var(--font-weight-regular);
+}
